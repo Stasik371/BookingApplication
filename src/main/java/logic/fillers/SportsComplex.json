@@ -1,0 +1,54 @@
+{
+  "name": "SportsComplex",
+  "places": [
+    {
+      "id": 1,
+      "name": "Ледовая арена ДС Русь",
+      "pricePerHour": 7000.0,
+      "location": "Москва, ул. Воронежская, д. 13, к. 3",
+      "feedBackStars": 3,
+      "freeDay": [
+        "MONDAY",
+        "WEDNESDAY",
+        "THURSDAY",
+        "SATURDAY",
+        "SUNDAY"
+      ],
+      "sportType": "Хоккей",
+      "countOfFans": 350,
+      "allArea": "3956",
+      "workArea": "2257"
+    },
+    {
+      "id": 2,
+      "name": "БАСКЕТБОЛЬНЫЙ ЗАЛ ФОК ТРИУМФ",
+      "pricePerHour": 1400.0,
+      "location": "Москва, ул. Габричевского, вл. 1",
+      "feedBackStars": 5,
+      "freeDay": [
+        "SATURDAY",
+        "SUNDAY"
+      ],
+      "sportType": "Баскетбол",
+      "countOfFans": 40,
+      "allArea": "1010",
+      "workArea": "648"
+    },
+    {
+      "id": 2,
+      "name": "БАСКЕТБОЛЬНЫЙ ЗАЛ ФОК ТРИУМФ",
+      "pricePerHour": 1400.0,
+      "location": "Москва, ул. Габричевского, вл. 1",
+      "feedBackStars": 5,
+      "freeDay": [
+        "SATURDAY",
+        "SUNDAY"
+      ],
+      "sportType": "Баскетбол",
+      "countOfFans": 40,
+      "allArea": "1010",
+      "workArea": "648"
+    }
+  ]
+}
+
