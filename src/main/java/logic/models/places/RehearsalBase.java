@@ -1,4 +1,7 @@
 package logic.models.places;
 
-public class RehearsalBase extends BasedClass{
+import java.util.ArrayList;
+
+public class RehearsalBase extends BasedClass {
+    public ArrayList<RehearsalBase> rehearsalBases;
 }

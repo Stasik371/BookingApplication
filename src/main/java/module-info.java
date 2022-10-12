@@ -9,6 +9,8 @@ module com.main.bookingapplication {
     requires eu.hansolo.tilesfx;
     requires json.simple;
     requires lombok;
+    requires org.jetbrains.annotations;
+    requires com.google.gson;
 
     opens com.main.bookingapplication to javafx.fxml;
     exports com.main.bookingapplication;

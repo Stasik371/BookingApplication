@@ -1,6 +1,5 @@
 {
-  "name": "SportsComplex",
-  "places": [
+  "SportsComplexes": [
     {
       "id": 1,
       "name": "Ледовая арена ДС Русь",

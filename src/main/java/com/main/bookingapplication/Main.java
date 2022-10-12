@@ -4,8 +4,12 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import logic.datastructures.DataStructureSingleton;
 import logic.fillers.JsonFiller;
+import logic.models.enums.TypesOfSquares;
 import logic.models.places.SportsComplex;
+import logic.models.places.SquaresFactory;
+import org.jetbrains.annotations.NotNull;
 
 import java.io.File;
 import java.io.IOException;
@@ -22,7 +26,8 @@ public class Main extends Application {
         stage.show();
     }
 
-    public static void main(String[] args) {
+    public static void main(@NotNull String @NotNull []  args) { //не трожь аннотации
         launch();
+
     }
 }

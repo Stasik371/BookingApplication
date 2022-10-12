@@ -1,10 +1,16 @@
 package logic.models.places;
 
+import java.util.ArrayList;
+import com.google.gson.Gson;
+import com.google.gson.annotations.SerializedName;
+
 public class SportsComplex extends  BasedClass {
     private String sportType;
     private int countOfFans;
     private String allArea;
     private String workArea;
+    @SerializedName("SportsComplexes")
+    public ArrayList<SportsComplex>sportsComplexes;
 
     @Override
     public String toString() {
