@@ -11,7 +11,7 @@ class BasedClass {
     private int id;
     private String name;
     private double pricePerHour;
-    private List<Days> freeDays;
+    private List<String> freeDays;
     private String location;
     private byte feedBackStars;
 
