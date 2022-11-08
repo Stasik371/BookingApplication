@@ -5,16 +5,12 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import logic.datastructures.DataStructureSingleton;
-import logic.fillers.JsonFiller;
 import logic.models.enums.TypesOfSquares;
 import logic.models.places.SportsComplex;
 import logic.models.places.SquaresFactory;
 import org.jetbrains.annotations.NotNull;
 
-import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
 public class Main extends Application {
     @Override
