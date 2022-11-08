@@ -3,17 +3,14 @@ package logic.models.places;
 import java.util.ArrayList;
 import com.google.gson.Gson;
 import com.google.gson.annotations.SerializedName;
-import lombok.Data;
-import lombok.EqualsAndHashCode;
 
-@EqualsAndHashCode(callSuper = true)
-public @Data class SportsComplex extends  BasedClass {
-    private final String sportType;
-    private final int countOfFans;
-    private final String allArea;
-    private final String workArea;
-
-    public final ArrayList<SportsComplex>sportsComplexes;
+public class SportsComplex extends  BasedClass {
+    private String sportType;
+    private int countOfFans;
+    private String allArea;
+    private String workArea;
+    @SerializedName("SportsComplexes")
+    public ArrayList<SportsComplex>sportsComplexes;
 
     @Override
     public String toString() {
@@ -29,5 +26,37 @@ public @Data class SportsComplex extends  BasedClass {
                 ", allArea=" + allArea +
                 ", workArea=" + workArea +
                 '}';
+    }
+
+    public String getSportType() {
+        return sportType;
+    }
+
+    public void setSportType(String sportType) {
+        this.sportType = sportType;
+    }
+
+    public int getCountOfFans() {
+        return countOfFans;
+    }
+
+    public void setCountOfFans(int countOfFans) {
+        this.countOfFans = countOfFans;
+    }
+
+    public String getAllArea() {
+        return allArea;
+    }
+
+    public void setAllArea(String allArea) {
+        this.allArea = allArea;
+    }
+
+    public String getWorkArea() {
+        return workArea;
+    }
+
+    public void setWorkArea(String workArea) {
+        this.workArea = workArea;
     }
 }

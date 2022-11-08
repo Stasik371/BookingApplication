@@ -1,28 +1,20 @@
 package logic.models.places;
 
-import logic.fillers.*;
+import logic.datastructures.DataStructureSingleton;
+import logic.fillers.JsonFiller;
 import logic.models.enums.TypesOfSquares;
-import org.jetbrains.annotations.NotNull;
-
-
-import java.util.Objects;
 
 public class SquaresFactory {
-    public static void createSquare(@NotNull TypesOfSquares type) {
+    public static void createSquare(TypesOfSquares type) {
+        JsonFiller jsonFiller = new JsonFiller();
+        DataStructureSingleton dataStructureSingleton = DataStructureSingleton.getObject();
         switch (type) {
-            case Loft -> new LoftSerialization().arrayFill(
-                    Objects.requireNonNull(new LoftSerialization()
-                            .fillFromJson()));
-            case ConcertHall -> new ConcertHallSerialization().arrayFill(
-                    Objects.requireNonNull(new ConcertHallSerialization()
-                            .fillFromJson()));
-            case RehearsalBase -> new RehearsalBaseSerialization().arrayFill(
-                    Objects.requireNonNull(new RehearsalBaseSerialization()
-                            .fillFromJson()));
-            case SportsComplex -> new SportComplexSerialization().arrayFill(
-                    Objects.requireNonNull(new SportComplexSerialization()
-                            .fillFromJson()));
+            case Loft -> jsonFiller.loftJSONFill(DataStructureSingleton.getLofts());
+            case ConcertHall -> jsonFiller.concertHallJSONFill(DataStructureSingleton.getConcertHalls());
+            case RehearsalBase -> jsonFiller.rehearsalBaseJSONFill(DataStructureSingleton.getRehearsalBases());
+            case SportsComplex -> jsonFiller.sportComplexJSONFill(DataStructureSingleton.getSportsComplexes());
         }
+
+
     }
 }
-

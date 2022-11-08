@@ -11,8 +11,7 @@ module com.main.bookingapplication {
     requires lombok;
     requires org.jetbrains.annotations;
     requires com.google.gson;
-    opens logic.models.places to com.google.gson;
-    opens logic.models.enums to com.google.gson;
+
     opens com.main.bookingapplication to javafx.fxml;
     exports com.main.bookingapplication;
     exports controllers;
