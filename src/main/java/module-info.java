@@ -4,13 +4,12 @@ module com.main.bookingapplication {
     requires javafx.web;
 
     requires org.controlsfx.controls;
-    requires org.kordamp.ikonli.javafx;
-    requires org.kordamp.bootstrapfx.core;
-    requires eu.hansolo.tilesfx;
     requires json.simple;
     requires lombok;
     requires org.jetbrains.annotations;
     requires com.google.gson;
+    requires com.jfoenix;
+    requires MaterialFX;
     opens logic.models.places to com.google.gson;
     opens logic.models.enums to com.google.gson;
     opens com.main.bookingapplication to javafx.fxml;
