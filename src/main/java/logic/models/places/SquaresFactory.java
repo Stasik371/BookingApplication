@@ -24,5 +24,12 @@ public class SquaresFactory {
                             .fillFromJson()));
         }
     }
+
+    public static void initSquares(){
+        createSquare(TypesOfSquares.SportsComplex);
+        /*createSquare(TypesOfSquares.ConcertHall);
+        createSquare(TypesOfSquares.RehearsalBase);
+        createSquare(TypesOfSquares.Loft);*/
+    }
 }
 

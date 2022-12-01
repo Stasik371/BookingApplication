@@ -5,7 +5,7 @@
       "pricePerHour": 7000.0,
       "location": "Москва, ул. Воронежская, д. 13, к. 3",
       "feedBackStars": 3,
-      "freeDay": [
+      "freeDays": [
         "MONDAY",
         "WEDNESDAY",
         "THURSDAY",
@@ -23,7 +23,7 @@
       "pricePerHour": 1400.0,
       "location": "Москва, ул. Габричевского, вл. 1",
       "feedBackStars": 5,
-      "freeDay": [
+      "freeDays": [
         "SATURDAY",
         "SUNDAY"
       ],
@@ -33,12 +33,12 @@
       "workArea": "648"
     },
     {
-      "id": 2,
+      "id": 3,
       "name": "БАСКЕТБОЛЬНЫЙ ЗАЛ ФОК ТРИУМФ",
       "pricePerHour": 1400.0,
       "location": "Москва, ул. Габричевского, вл. 1",
       "feedBackStars": 5,
-      "freeDay": [
+      "freeDays": [
         "SATURDAY",
         "SUNDAY"
       ],

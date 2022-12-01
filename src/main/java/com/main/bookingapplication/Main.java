@@ -4,9 +4,9 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Cursor;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.scene.input.MouseButton;
 import javafx.scene.paint.Color;
-import javafx.stage.Screen;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import logic.datastructures.DataStructureSingleton;
@@ -16,6 +16,7 @@ import logic.models.places.SquaresFactory;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.IOException;
+import java.util.Objects;
 
 public class Main extends Application {
 
@@ -29,6 +30,8 @@ public class Main extends Application {
         stage.initStyle(StageStyle.TRANSPARENT);
         scene.setFill(Color.TRANSPARENT);
         stage.setTitle("Booking Application");
+        Image icon = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/com/main/bookingapplication/images/Garfild_planet.jfif")));
+        stage.getIcons().add(icon);
         scene.setOnMousePressed(m -> {
             if (m.getButton() == MouseButton.PRIMARY) {
                 scene.setCursor(Cursor.MOVE);
@@ -44,14 +47,12 @@ public class Main extends Application {
             }
         });
 
-        scene.setOnMouseReleased(m -> {
-            scene.setCursor(Cursor.DEFAULT);
-        });
+        scene.setOnMouseReleased(m -> scene.setCursor(Cursor.DEFAULT));
         stage.setScene(scene);
         stage.show();
     }
 
-    public static void main(@NotNull String @NotNull []  args) { //не трожь аннотации
+    public static void main(@NotNull String @NotNull []  args) {
         launch();
     }
 }
