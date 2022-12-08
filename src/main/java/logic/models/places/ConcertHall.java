@@ -12,4 +12,18 @@ public class ConcertHall extends RehearsalBase {
     public ArrayList<ConcertHall> concertHalls;
     private int soundPower;
     private int countOfFans;
+
+    @Override
+    public String toString() {
+        return "ConcertHall{" +
+                "id=" + getId() +
+                ", name='" + getName() + '\'' +
+                ", pricePerHour=" + getPricePerHour() +
+                ", freeDays=" + getFreeDays() +
+                ", location='" + getLocation() + '\'' +
+                ", feedBackStars=" + getFeedBackStars() +
+                ", soundPower='" + soundPower + '\'' +
+                ", countOFFans=" + countOfFans +
+                '}';
+    }
 }

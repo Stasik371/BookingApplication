@@ -27,9 +27,9 @@ public class SquaresFactory {
 
     public static void initSquares(){
         createSquare(TypesOfSquares.SportsComplex);
-        /*createSquare(TypesOfSquares.ConcertHall);
+        createSquare(TypesOfSquares.ConcertHall);
         createSquare(TypesOfSquares.RehearsalBase);
-        createSquare(TypesOfSquares.Loft);*/
+        createSquare(TypesOfSquares.Loft);
     }
 }
 

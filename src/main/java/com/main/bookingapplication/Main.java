@@ -52,7 +52,12 @@ public class Main extends Application {
         stage.show();
     }
 
-    public static void main(@NotNull String @NotNull []  args) {
-        launch();
+    public static void main(@NotNull String @NotNull [] args) {
+        //launch();
+        SquaresFactory.initSquares();
+        var biba = DataStructureSingleton.getLofts();
+        for (var record :biba) {
+            System.out.println(record);
+        }
     }
 }
