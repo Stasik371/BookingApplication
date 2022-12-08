@@ -18,26 +18,26 @@
          <children>
             <ImageView fx:id="btn_home" fitHeight="80.0" fitWidth="80.0" layoutX="53.0" layoutY="13.0" onMouseClicked="#handleButtonAction" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@images/home.png" />
+                  <Image url="@images/icons/home.png" />
                </image></ImageView>
             <ImageView fx:id="btn_profile" fitHeight="80.0" fitWidth="80.0" layoutX="186.0" layoutY="14.0" onMouseClicked="#handleButtonAction" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@images/account.png" />
+                  <Image url="@images/icons/account.png" />
                </image></ImageView>
             <ImageView fx:id="btn_exit" fitHeight="63.0" fitWidth="63.0" layoutX="467.0" layoutY="22.0" onMouseClicked="#handleButtonAction" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@images/close.png" />
+                  <Image url="@images/icons/close.png" />
                </image></ImageView>
             <ImageView fx:id="btn_orders" fitHeight="63.0" fitWidth="63.0" layoutX="329.0" layoutY="22.0" onMouseClicked="#handleButtonAction" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@images/file.png" />
+                  <Image url="@images/icons/file.png" />
                </image></ImageView>
          </children></AnchorPane>
       <AnchorPane fx:id="profilePane" layoutY="126.0" prefHeight="454.0" prefWidth="580.0" style="-fx-background-color: #3D4956; -fx-background-radius: 3em; -fx-border-radius: 3em;">
          <children>
             <ImageView fx:id="profileImage" fitHeight="229.0" fitWidth="227.0" layoutX="32.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@images/businessman.png" />
+                  <Image url="@images/icons/businessman.png" />
                </image>
             </ImageView>
             <Label fx:id="nameLabel_1" layoutX="301.0" layoutY="29.0" prefHeight="20.0" prefWidth="74.0" text="First Name" textFill="WHITE">
@@ -177,7 +177,7 @@
             </Label>
             <ImageView fx:id="locationPhoto" fitHeight="149.0" fitWidth="212.0" layoutX="44.0" layoutY="276.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@images/cat.jpg" />
+                  <Image url="@images/icons/select.png" />
                </image>
             </ImageView>
             <JFXListView fx:id="mainListView" layoutX="278.0" layoutY="96.0" prefHeight="271.0" prefWidth="262.0" style="-fx-selection-bar: #eda678;" />
@@ -200,16 +200,21 @@
                   <Font name="System Bold Italic" size="18.0" />
                </font>
             </Label>
-            <Button fx:id="btn_delete" layoutX="437.0" layoutY="391.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="102.0" style="-fx-background-color: #eda678; -fx-background-radius: 5em; -fx-border-radius: 5em;" text="Delete">
+            <Button fx:id="btn_delete" layoutX="437.0" layoutY="391.0" mnemonicParsing="false" onAction="#onDeleteButton" prefHeight="35.0" prefWidth="102.0" style="-fx-background-color: #eda678; -fx-background-radius: 5em; -fx-border-radius: 5em;" text="Delete">
                <font>
                   <Font size="14.0" />
                </font></Button>
-            <Label fx:id="descriptionText" cache="true" layoutX="340.0" layoutY="68.0" prefHeight="302.0" prefWidth="204.0" text="               Select an order" textFill="WHITE">
+            <Label fx:id="descriptionText" cache="true" layoutX="340.0" layoutY="51.0" prefHeight="167.0" prefWidth="200.0" text="               Select an order" textFill="WHITE">
                <font>
                   <Font name="Times New Roman" size="14.0" />
                </font>
             </Label>
             <JFXListView fx:id="ordersListView" layoutX="48.0" layoutY="52.0" prefHeight="376.0" prefWidth="242.0" style="-fx-selection-bar: #eda678;" />
+            <ImageView fx:id="orderPhoto" fitHeight="149.0" fitWidth="212.0" layoutX="340.0" layoutY="227.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/icons/select.png" />
+               </image>
+            </ImageView>
          </children></AnchorPane>
    </children>
 </AnchorPane>

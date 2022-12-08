@@ -9,10 +9,6 @@ import javafx.scene.input.MouseButton;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
-import logic.datastructures.DataStructureSingleton;
-import logic.models.enums.TypesOfSquares;
-import logic.models.places.SportsComplex;
-import logic.models.places.SquaresFactory;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.IOException;
@@ -30,7 +26,7 @@ public class Main extends Application {
         stage.initStyle(StageStyle.TRANSPARENT);
         scene.setFill(Color.TRANSPARENT);
         stage.setTitle("Booking Application");
-        Image icon = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/com/main/bookingapplication/images/Garfild_planet.jfif")));
+        Image icon = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/com/main/bookingapplication/images/icons/Garfild_planet.jfif")));
         stage.getIcons().add(icon);
         scene.setOnMousePressed(m -> {
             if (m.getButton() == MouseButton.PRIMARY) {
@@ -53,11 +49,6 @@ public class Main extends Application {
     }
 
     public static void main(@NotNull String @NotNull [] args) {
-        //launch();
-        SquaresFactory.initSquares();
-        var biba = DataStructureSingleton.getLofts();
-        for (var record :biba) {
-            System.out.println(record);
-        }
+        launch();
     }
 }
