@@ -12,6 +12,8 @@
         "SATURDAY",
         "SUNDAY"
       ],
+      "description": "Лучшая хоккейная площадка!",
+      "phoneNumber": "89021505511",
       "sportType": "Хоккей",
       "countOfFans": 350,
       "allArea": "3956",
@@ -27,6 +29,8 @@
         "SATURDAY",
         "SUNDAY"
       ],
+      "description": "Лучшая баскетбольная площадка!",
+      "phoneNumber": "89021551111",
       "sportType": "Баскетбол",
       "countOfFans": 40,
       "allArea": "1010",
@@ -34,7 +38,7 @@
     },
     {
       "id": 3,
-      "name": "БАСКЕТБОЛЬНЫЙ ЗАЛ ФОК ТРИУМФ",
+      "name": "БАСКЕТБОЛЬНЫЙ ЗАЛ ФОК ЗВЕЗДА",
       "pricePerHour": 1400.0,
       "location": "Москва, ул. Габричевского, вл. 1",
       "feedBackStars": 5,
@@ -42,6 +46,8 @@
         "SATURDAY",
         "SUNDAY"
       ],
+      "description": "Самая Лучшая баскетбольная площадка!",
+      "phoneNumber": "89021552221",
       "sportType": "Баскетбол",
       "countOfFans": 40,
       "allArea": "1010",

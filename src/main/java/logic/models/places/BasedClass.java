@@ -13,5 +13,6 @@ class BasedClass {
     private List<DayOfWeek> freeDays;
     private String location;
     private byte feedBackStars;
-
+    private String description;
+    private String phoneNumber;
 }

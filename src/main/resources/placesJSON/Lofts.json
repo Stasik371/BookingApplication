@@ -1,0 +1,51 @@
+[
+  {
+    "id": 7,
+    "name": "Лофт Голубой",
+    "pricePerHour": 1500.0,
+    "location": "Москва, ул. Воронежская, д. 13, к. 3",
+    "feedBackStars": 3,
+    "freeDays": [
+      "MONDAY",
+      "WEDNESDAY",
+      "SUNDAY"
+    ],
+    "description": "Отличный лофт для посиделок",
+    "phoneNumber": "89215405511",
+    "area": 70,
+    "style": "Blue"
+  },
+  {
+    "id": 8,
+    "name": "Лофт Зеленый",
+    "pricePerHour": 3000.0,
+    "location": "Москва, ул. Воронежская, д. 13, к. 3",
+    "feedBackStars": 5,
+    "freeDays": [
+      "MONDAY",
+      "WEDNESDAY",
+      "SUNDAY"
+    ],
+    "description": "Лофт для свадеб",
+    "phoneNumber": "89218905511",
+    "area": 150,
+    "style": "Green"
+  },
+  {
+    "id": 9,
+    "name": "Лофт Футбол Фиолетовый",
+    "pricePerHour": 1500.0,
+    "location": "Москва, ул. Воронежская, д. 13, к. 3",
+    "feedBackStars": 3,
+    "freeDays": [
+      "MONDAY",
+      "WEDNESDAY",
+      "SUNDAY"
+    ],
+    "description": "Лофт для просмотра футбола",
+    "phoneNumber": "89215471911",
+    "area": 70,
+    "style": "Purple"
+  }
+]
+
