@@ -1,0 +1,54 @@
+[
+  {
+    "id": 4,
+    "name": "SoundCheck",
+    "pricePerHour": 350.0,
+    "location": "Москва, ул. Воронежская, д. 13, к. 3",
+    "feedBackStars": 5,
+    "freeDays": [
+      "MONDAY",
+      "WEDNESDAY",
+      "THURSDAY",
+      "SATURDAY",
+      "SUNDAY"
+    ],
+    "description": "Лучшая репБаза!",
+    "phoneNumber": "8902125511",
+    "powerOfVolume": 120,
+    "commonFeatures": "Барабаны, тарелки, микрофон"
+  },
+  {
+    "id": 5,
+    "name": "PowerOfMusic",
+    "pricePerHour": 450.0,
+    "location": "Москва, ул. Воронежская, д. 13, к. 4",
+    "feedBackStars": 3,
+    "freeDays": [
+      "MONDAY",
+      "WEDNESDAY",
+      "SATURDAY",
+      "SUNDAY"
+    ],
+    "description": "Лучшая лучшая репБаза!",
+    "phoneNumber": "8902125556",
+    "powerOfVolume": 200,
+    "commonFeatures": "Барабаны, микрофон, басс"
+  },
+  {
+    "id": 6,
+    "name": "PunkMetalHardcore",
+    "pricePerHour": 100.0,
+    "location": "Москва, ул. Воронежская, д. 13, к. 47",
+    "feedBackStars": 1,
+    "freeDays": [
+      "MONDAY",
+      "THURSDAY",
+      "SUNDAY"
+    ],
+    "description": "Дешево и сердито!",
+    "phoneNumber": "89021456781",
+    "powerOfVolume": 30,
+    "commonFeatures": "Ничего нет"
+  }
+]
+

@@ -5,13 +5,15 @@
       "pricePerHour": 7000.0,
       "location": "Москва, ул. Воронежская, д. 13, к. 3",
       "feedBackStars": 3,
-      "freeDay": [
+      "freeDays": [
         "MONDAY",
         "WEDNESDAY",
         "THURSDAY",
         "SATURDAY",
         "SUNDAY"
       ],
+      "description": "Лучшая хоккейная площадка!",
+      "phoneNumber": "89021505511",
       "sportType": "Хоккей",
       "countOfFans": 350,
       "allArea": "3956",
@@ -23,25 +25,29 @@
       "pricePerHour": 1400.0,
       "location": "Москва, ул. Габричевского, вл. 1",
       "feedBackStars": 5,
-      "freeDay": [
+      "freeDays": [
         "SATURDAY",
         "SUNDAY"
       ],
+      "description": "Лучшая баскетбольная площадка!",
+      "phoneNumber": "89021551111",
       "sportType": "Баскетбол",
       "countOfFans": 40,
       "allArea": "1010",
       "workArea": "648"
     },
     {
-      "id": 2,
-      "name": "БАСКЕТБОЛЬНЫЙ ЗАЛ ФОК ТРИУМФ",
+      "id": 3,
+      "name": "БАСКЕТБОЛЬНЫЙ ЗАЛ ФОК ЗВЕЗДА",
       "pricePerHour": 1400.0,
       "location": "Москва, ул. Габричевского, вл. 1",
       "feedBackStars": 5,
-      "freeDay": [
+      "freeDays": [
         "SATURDAY",
         "SUNDAY"
       ],
+      "description": "Самая Лучшая баскетбольная площадка!",
+      "phoneNumber": "89021552221",
       "sportType": "Баскетбол",
       "countOfFans": 40,
       "allArea": "1010",

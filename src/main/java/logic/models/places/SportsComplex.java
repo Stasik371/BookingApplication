@@ -1,8 +1,9 @@
 package logic.models.places;
 
 import java.util.ArrayList;
-import com.google.gson.Gson;
-import com.google.gson.annotations.SerializedName;
+import java.util.Arrays;
+
+
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
@@ -24,7 +25,7 @@ public @Data class SportsComplex extends  BasedClass {
                 ", freeDays=" + getFreeDays() +
                 ", location='" + getLocation() + '\'' +
                 ", feedBackStars=" + getFeedBackStars() +
-                "sportType='" + sportType + '\'' +
+                ", sportType='" + sportType + '\'' +
                 ", countOfFans=" + countOfFans +
                 ", allArea=" + allArea +
                 ", workArea=" + workArea +

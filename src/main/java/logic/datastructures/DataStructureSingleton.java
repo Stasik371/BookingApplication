@@ -9,7 +9,6 @@ import java.util.ArrayList;
 public class DataStructureSingleton {
     private static ArrayList<ConcertHall> concertHalls;
     private static ArrayList<Loft> lofts;
-    //@SerializedName("SportsComplex")
     private static ArrayList<SportsComplex> sportsComplexes;
     private static ArrayList<RehearsalBase> rehearsalBases;
 

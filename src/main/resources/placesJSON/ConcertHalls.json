@@ -1,0 +1,51 @@
+[
+  {
+    "id": 10,
+    "name": "Punk Fiction",
+    "pricePerHour": 8000.0,
+    "location": "Москва, ул. Воронежская, д. 13, к. 5",
+    "feedBackStars": 5,
+    "freeDays": [
+      "MONDAY",
+      "WEDNESDAY",
+      "SUNDAY"
+    ],
+    "description": "Концертная рок площадка",
+    "phoneNumber": "8921944511",
+    "soundPower": 2000,
+    "countOfFans": 1300
+  },
+  {
+    "id": 11,
+    "name": "IZI",
+    "pricePerHour": 10000.0,
+    "location": "Москва, ул. Габричевского, вл. 1",
+    "feedBackStars": 5,
+    "freeDays": [
+      "SATURDAY",
+      "SUNDAY"
+    ],
+    "description": "Рэп концерты",
+    "phoneNumber": "89021558975",
+    "soundPower": 6000,
+    "countOfFans": 2500
+  },
+  {
+    "id": 12,
+    "name": "ДК Россия",
+    "pricePerHour": 1400.0,
+    "location": "Москва, ул. Габричевского, вл. 1",
+    "feedBackStars": 5,
+    "freeDays": [
+      "MONDAY",
+      "WEDNESDAY",
+      "SATURDAY",
+      "SUNDAY"
+    ],
+    "description": "Шансон концерты",
+    "phoneNumber": "89021558674",
+    "soundPower": 1000,
+    "countOfFans": 300
+  }
+]
+
